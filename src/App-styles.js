@@ -11,4 +11,13 @@ export const Header = styled.header`
   color: white;
 `;
 
-export const Wrapper = styled.section``;
+export const Wrapper = styled.section`
+  display: flex;
+  justify-content: center;
+`;
+
+export const Subtitle = styled.h2`
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+`;
