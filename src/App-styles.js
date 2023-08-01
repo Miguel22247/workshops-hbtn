@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
-  background-color: #282c34;
   min-height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(1px + 2vmin);
+`;
+
+export const Title = styled.h1`
+  font-size: calc(2px + 2vmin);
   color: white;
 `;
 
