@@ -15,7 +15,9 @@ export const Title = styled.h1`
 
 export const Wrapper = styled.section`
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 `;
 
 export const Subtitle = styled.h2`

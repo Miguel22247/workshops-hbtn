@@ -6,7 +6,9 @@ import { ExtendingStyling } from "./components/extending-styles";
 import { StylingAnything } from "./components/styling-any-component";
 import { StylingWithPropsAndStates } from "./components/with-props";
 
+
 function App() {
+
   return (
     <>
       <Header>
@@ -17,20 +19,18 @@ function App() {
         <BasicComponent />
       </S.Wrapper>
       <S.Wrapper>
-        <S.Subtitle>Extending Styled Components</S.Subtitle>
-        <ExtendingStyling />
+        <S.Subtitle>Styling Components with Props or States</S.Subtitle>
+        <StylingWithPropsAndStates />
       </S.Wrapper>
       <S.Wrapper>
-        <S.Subtitle>Shared Styled Components</S.Subtitle>
+        <S.Subtitle>Extending and Custom Styled Components</S.Subtitle>
+        <ExtendingStyling />
       </S.Wrapper>
       <S.Wrapper>
         <S.Subtitle>Styling Any Components</S.Subtitle>
         <StylingAnything />
       </S.Wrapper>
-      <S.Wrapper>
-        <S.Subtitle>Styling Components with Props or States</S.Subtitle>
-        <StylingWithPropsAndStates />
-      </S.Wrapper>
+
       {/* // TODO: Show how to import components from a JS file using both methods */}
     </>
   );
