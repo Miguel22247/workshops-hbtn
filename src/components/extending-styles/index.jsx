@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { NormalButton } from "../global/Button";
+import { CustomLink } from "../global/Link";
 
-const WhiteButton = styled(NormalButton)`
-`;
+const StyledLink = styled(CustomLink)``;
 
 export const ExtendingStyling = () => {
   const ReversedButton = (props) => (
@@ -11,9 +11,9 @@ export const ExtendingStyling = () => {
   );
   return (
     <>
-      <WhiteButton as={ReversedButton}>
-        Custom Button with Normal Button styles
-      </WhiteButton>
+      <CustomLink url="https://styled-components.com/docs/basics#styling-any-component">Unstyled boring Link</CustomLink>
+      <br />
+      <StyledLink url="https://styled-components.com/docs/basics#styling-any-component">Styled Link</StyledLink>
     </>
   );
 };
