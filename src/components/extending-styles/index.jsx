@@ -1,19 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 import { NormalButton } from "../global/Button";
-import { CustomLink } from "../global/Link";
 
-const StyledLink = styled(CustomLink)``;
+const TomatoButton = styled(NormalButton)``;
+
 
 export const ExtendingStyling = () => {
-  const ReversedButton = (props) => (
-    <NormalButton {...props} children={props.children.split("").reverse()} />
-  );
+  const ReversedButton = props => <NormalButton {...props} children={props.children.split('').reverse()} />
+
   return (
-    <>
-      <CustomLink url="https://styled-components.com/docs/basics#styling-any-component">Unstyled boring Link</CustomLink>
-      <br />
-      <StyledLink url="https://styled-components.com/docs/basics#styling-any-component">Styled Link</StyledLink>
-    </>
+  <div>
+    <NormalButton>Normal Button</NormalButton>
+    <NormalButton as={ReversedButton}>Link with Button styles</NormalButton>
+    <TomatoButton as="a" href="#">Link with Tomato Button styles</TomatoButton>
+  </div>
   );
 };

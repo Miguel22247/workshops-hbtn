@@ -5,7 +5,7 @@ import * as S from "./app-styles";
 import { BasicComponent } from "./components/basics";
 import { ExtendingStyling } from "./components/extending-styles";
 import { StylingAnything } from "./components/styling-any-component";
-import { StylingWithPropsAndStates } from "./components/with-props";
+import { StylingWithPropsAndStates } from "./components/passed-props";
 import { AnimationsShow } from "./components/animations";
 
 const Main = styled.main`

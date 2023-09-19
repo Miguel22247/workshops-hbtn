@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const Rotate = styled.div``;
+
 export const AnimationsShow = () => {
-    return <div>&lt; 💅🏾 &gt;</div>
+    return <Rotate>&lt; 💅🏾 &gt;</Rotate>
 }
