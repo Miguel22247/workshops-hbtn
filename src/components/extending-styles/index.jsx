@@ -11,7 +11,7 @@ export const ExtendingStyling = () => {
   return (
   <div>
     <NormalButton>Normal Button</NormalButton>
-    <NormalButton as={ReversedButton}>Link with Button styles</NormalButton>
+    <NormalButton as={ReversedButton}>a Reversed Button</NormalButton>
     <TomatoButton as="a" href="#">Link with Tomato Button styles</TomatoButton>
   </div>
   );
