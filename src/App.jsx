@@ -6,7 +6,7 @@ import { BasicComponent } from "./components/basics";
 import { ExtendingStyling } from "./components/extending-styles";
 import { StylingAnything } from "./components/styling-any-component";
 import { StylingWithPropsAndStates } from "./components/passed-props";
-import { AnimationsShow } from "./components/animations";
+import { AnimationsShow } from "./components/animations/Rotation";
 
 const Main = styled.main`
   display: flex;
@@ -39,6 +39,10 @@ function App() {
         <S.Wrapper>
           <S.Subtitle>Styling Any Components</S.Subtitle>
           <StylingAnything />
+        </S.Wrapper>
+        <S.Wrapper>
+          <S.Subtitle>Passed Props</S.Subtitle>
+          <StylingWithPropsAndStates />
         </S.Wrapper>
         <S.Wrapper>
           <S.Subtitle>Animations</S.Subtitle>
