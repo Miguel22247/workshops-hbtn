@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 
-export default function ErrorText () {
-  const [errorMessage, setErrorMessage] = useState("Hola Holberton");
-  return (
-    <h3>{errorMessage}</h3>
-  );
+export const ErrorText = () => {
+  const [message, setMessage] = useState("Hola Holberton");
+  return <h3>{message}</h3>;
 };
