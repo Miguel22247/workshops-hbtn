@@ -4,7 +4,6 @@ import { NormalButton } from "../global/Button";
 
 const TomatoButton = styled(NormalButton)``;
 
-
 export const ExtendingStyling = () => {
   const ReversedButton = props => <NormalButton {...props} children={props.children.split('').reverse()} />
 

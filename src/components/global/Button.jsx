@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CustomButton = styled.button`
+export const ButtonWithProps = styled.button`
   width: ${(props) => (props.width ? props.width : "auto")};
   height: ${(props) => (props.height ? props.height : "31px")};
   padding-left: ${(props) => (props.paddingLeft ? props.paddingLeft : "16px")};
@@ -29,12 +29,4 @@ export const CustomButton = styled.button`
 `;
 
 export const NormalButton = styled.button`
-  width: 300px;
-  color: #bf4f74;
-  font-size: 1em;
-  margin: 1em;
-  padding: 0.25em 1em;
-  border: 2px solid #bf4f74;
-  border-radius: 3px;
-  display: block;
 `;
