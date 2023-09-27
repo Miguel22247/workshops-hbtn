@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Getting Started with Styled Components
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Antes de comenzar con este workshop deberemos tener lo siguiente instalado:
 
-## Available Scripts
+- VSCode: [Descarga de VSCode](https://code.visualstudio.com/)
+- NodeJS: [Link de descarga de NodeJS](https://nodejs.org/download/release/v16.20.2/)
+- El repositorio clonado en nuestra maquina: [URL del Repositorio](https://github.com/Miguel22247/workshop-hbtn-styled-components)
+- Extension de Styled Components (opcional): [Link de la extension](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)
 
-In the project directory, you can run:
+## Proximos pasos
 
-### `npm start`
+Tras tener clonado nuestro repositorio vamos a proceder a instalar todas las librerias que utilizaremos en el workshop, para esto. Utilizaremos el comando `npm install` y para iniciar nuestro proyecto en local utilizaremos `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### La idea del workshop
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+La idea de este workshop es que recreemos este componente de React utilizando Styled components
 
-### `npm test`
+![Alt text](image.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+#### Informacion sobre el texto del componente
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- font: Gotham
+- font-size del nickname: 16px
+- font-size del prize pool: 36px;
+- font-weight: bold;
+- color: #ffffff (white)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Info sobre el container del componente
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##### General
+- width: 205px
+- height: 300px
+- border-radius: 10px
+- background: linear-gradient(180deg, #CB49B5 0%, rgba(63, 47, 170, 0) 100%), #201366
 
-### `npm run eject`
+##### Hover
+- margin-top: -5px;
+- cursor: pointer;
+- box-shadow: 0px 12px 30px 0px rgba(26, 14, 86, 1);
+- transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Avatar
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- El componente Avatar sera suministrado y se encuentra en la carpeta `src/components/global`
+- width: 60px;
+- height: 60px;
+- border-radius: 50%;
+- background: linear-gradient(to bottom, rgba(63, 47, 170, 0.8) 0%, rgba(63, 47, 170, 0.8) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%)
+- tamaño del Avatar va a ser de 42px
