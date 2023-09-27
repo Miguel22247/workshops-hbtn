@@ -21,7 +21,6 @@ export const Wrapper = styled.section`
 `;
 
 export const Subtitle = styled.h2`
-  font-size: calc(1px + 2vmin);
   text-align: center;
   color: white;
 `;
