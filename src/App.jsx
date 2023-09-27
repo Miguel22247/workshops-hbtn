@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Header, Subtitle, Title } from "./app-styles";
 import { TopWinnerContainerWithoutStyledComponents } from "./components/card-without-styled/CardWithoutStyled";
+import { CardWithStyledComponents } from "./components/CardWithStyled";
 
 const Main = styled.main`
   display: flex;
@@ -29,7 +30,7 @@ function App() {
       nickname: "Blast.gg",
       poolsPrize: "1000.1822189892",
       avatarURL:
-        "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=60",
+        "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=50",
     },
   ];
 
@@ -113,6 +114,18 @@ function App() {
           {topWinnerData.map((topWinner, index) => {
             return (
               <TopWinnerContainerWithoutStyledComponents
+                topWinnerData={topWinner}
+                bgColor={setTopWinnerBgColor(index)}
+                mainBgColor={setTopWinnerMainColor(index)}
+              />
+            );
+          })}
+        </Wrapper>
+        <Subtitle>Cards With Styled Components</Subtitle>
+        <Wrapper>
+          {topWinnerData.map((topWinner, index) => {
+            return (
+              <CardWithStyledComponents
                 topWinnerData={topWinner}
                 bgColor={setTopWinnerBgColor(index)}
                 mainBgColor={setTopWinnerMainColor(index)}
