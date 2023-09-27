@@ -33,7 +33,7 @@ La idea de este workshop es que recreemos este componente de React utilizando St
 - width: 205px
 - height: 300px
 - border-radius: 10px
-- background: linear-gradient(180deg, #CB49B5 0%, rgba(63, 47, 170, 0) 100%), #201366
+- background: gradients dinamicos, #201366
 
 ##### Hover
 - margin-top: -5px;
