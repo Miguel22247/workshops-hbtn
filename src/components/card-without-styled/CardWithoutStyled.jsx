@@ -4,7 +4,6 @@ import "./styles.css";
 import { Podium } from "../../assets/svg";
 
 export const TopWinnerContainerWithoutStyledComponents = ({ topWinnerData }) => {
-  console.log(topWinnerData);
   const prize = topWinnerData.poolsPrize
   const getPrize = prize => {
     if (prize) {
