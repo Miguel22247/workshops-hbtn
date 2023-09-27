@@ -2,7 +2,6 @@
   width: 205px;
   height: 300px;
   border-radius: 10px;
-  background: linear-gradient(180deg, #CB49B5 0%, rgba(63, 47, 170, 0) 100%), #201366;
   background-size: 100% 184px;
   background-repeat: no-repeat;
   display: flex;
@@ -35,7 +34,6 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: linear-gradient(to bottom, rgba(63, 47, 170, 0.8) 0%, rgba(63, 47, 170, 0.8) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
