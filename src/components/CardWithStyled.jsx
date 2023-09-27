@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import Avatar from "./global/Avatar";
 import { Podium } from "../assets/svg";
+
+//! Here will go the code of each styled component
 
 
 export const CardWithStyledComponents = ({topWinnersData, bgColor, mainBgColor}) => {
@@ -13,4 +16,8 @@ export const CardWithStyledComponents = ({topWinnersData, bgColor, mainBgColor})
       return "$0";
     }
   };
+
+  return (
+    // TODO: put here your styled component
+  );
 };
