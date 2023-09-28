@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { Header, Subtitle, Title } from "./app-styles";
+import { Header, Subtitle } from "./App-styles";
+import * as S from "./App-styles";
 import { TopWinnerContainerWithoutStyledComponents } from "./components/card-without-styled/CardWithoutStyled";
 import { CardWithStyledComponents } from "./components/CardWithStyled";
 
@@ -106,7 +107,7 @@ function App() {
   return (
     <>
       <Header>
-        <Title>Holberton x Blast workshop of Styled Components</Title>
+        <S.Title>Holberton x Blast workshop of Styled Components</S.Title>
       </Header>
       <Main>
         <Subtitle>Cards without Styled Components</Subtitle>
