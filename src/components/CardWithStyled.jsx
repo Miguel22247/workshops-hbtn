@@ -19,5 +19,6 @@ export const CardWithStyledComponents = ({topWinnersData, bgColor, mainBgColor})
 
   return (
     // TODO: put here your styled component
+    <></>
   );
 };
