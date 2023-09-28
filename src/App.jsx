@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Header, Subtitle, Title } from "./app-styles";
 import { TopWinnerContainerWithoutStyledComponents } from "./components/card-without-styled/CardWithoutStyled";
+import { CardWithStyledComponents } from "./components/CardWithStyled";
 
 const Main = styled.main`
   display: flex;
@@ -113,6 +114,17 @@ function App() {
           {topWinnerData.map((topWinner, index) => {
             return (
               <TopWinnerContainerWithoutStyledComponents
+                topWinnerData={topWinner}
+                bgColor={setTopWinnerBgColor(index)}
+                mainBgColor={setTopWinnerMainColor(index)}
+              />
+            );
+          })}
+        </Wrapper>
+        <Wrapper>
+          {topWinnerData.map((topWinner, index) => {
+            return (
+              <CardWithStyledComponents
                 topWinnerData={topWinner}
                 bgColor={setTopWinnerBgColor(index)}
                 mainBgColor={setTopWinnerMainColor(index)}

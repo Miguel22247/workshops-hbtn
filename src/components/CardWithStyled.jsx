@@ -5,6 +5,13 @@ import { Podium } from "../assets/svg";
 
 //! Here will go the code of each styled component
 
+const Container = styled.div`
+  outline: 1px solid red;
+  width: 205px;
+  height: 300px;
+`
+
+
 
 export const CardWithStyledComponents = ({topWinnersData, bgColor, mainBgColor}) => {
   const getPrize = prize => {
@@ -19,6 +26,6 @@ export const CardWithStyledComponents = ({topWinnersData, bgColor, mainBgColor})
 
   return (
     // TODO: put here your styled component
-    <></>
+    <Container />
   );
 };
