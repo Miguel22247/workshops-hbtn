@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { Header, Subtitle } from "./App-styles";
-import * as S from "./App-styles";
+import { Header, Subtitle } from "./app-styles";
+import * as S from "./app-styles";
 import { TopWinnerContainerWithoutStyledComponents } from "./components/card-without-styled/CardWithoutStyled";
 import { CardWithStyledComponents } from "./components/CardWithStyled";
 
