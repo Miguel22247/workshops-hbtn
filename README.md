@@ -1,4 +1,4 @@
-# Workshops With Blast
+# React Workshops with Blast
 
 Antes de comenzar con este workshop deberemos tener lo siguiente instalado:
 
@@ -12,4 +12,4 @@ Antes de comenzar con este workshop deberemos tener lo siguiente instalado:
 Tras tener clonado nuestro repositorio vamos a proceder a instalar todas las librerias que utilizaremos en el workshop, para esto. Utilizaremos el comando `npm install` y para iniciar nuestro proyecto en local utilizaremos `npm start`
 
 ### La idea del workshop
-
+WIP
